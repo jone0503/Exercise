@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>9A517017 ChenXuanHao</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>9A517017 Chen Xuan Hao</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">About ME！</a></li>
+						<li><a href="#two">My Course</a></li>
+						<li><a href="#work">My Photo</a></li>
+						<li><a href="#contact">9X9乘法表</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content"> 
+					<header>
+						<h2>Hi~I'm CyanS.</h2>
+					</header>
+					<h3>Welcome to my <strong>personal website</strong>,you can check out my hobbies,work,specialty,or anything about me in here.</h3>
+				   
+				
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>About Me！</h2>
+					</header>
+				
+				    <P><span style="font-family:Microsoft JhengHei;">本名：陳炫豪  1997/09/26 ♎天秤座♎ </span></P>
+					<P><span style="font-family:Microsoft JhengHei;">興趣：看電影、動畫，偶爾打個PS4(PSid：cyansweet)或PC GAME，遛貓遛狗。</span></P>
+				    <P><span style="font-family:Microsoft JhengHei;">喜歡的歌手：Amier、DAOKO (*´艸`*)</span></P>
+				    <P><span style="font-family:Microsoft JhengHei;">感情狀態：一言難盡ლ(´•д• ̀ლ</span></p>
+					<P><span style="font-family:Microsoft JhengHei;">專長： 清貓砂.......( ¯•ω•¯ )</span></P>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						
+				<body>
+				    <h2>My Course</h2>
+				<p><span style="font-family:Microsoft JhengHei;">崇德國中：學藝、風紀</span></p>
+				<p><span style="font-family:Microsoft JhengHei;">明道高中：衛生、基電助教</span></p>
+				<p><span style="font-family:Microsoft JhengHei;">勤益科大：服務、....等等</span></p>
+                <p><span style="font-family:Microsoft JhengHei;">曾經做過的工作：手機行、園藝店、中友 藏壽司、勤益校內打工、百佳泰工讀生</span></p>		 
+				</body>
+				</header>
+			
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Photo </h2>
+						<p>這裡有些特地挑出來的照片  來把他們點開來試試！！！</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.png"  title="牠是Chapu恰噗，從小就來到我們家，很調皮(´c_`)" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.png" title="牠是Money曼尼，回臺北老家時自己到了我們車上 就帶回家了ヾ(◎´・ω・｀)ノ " alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.png" class="image fit"><img src="images/thumbs/03.png" title="┳━┳ノ( OωOノ)" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.png" title="My Gaming SetUp！！" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.png" title="My NOOB Friend~(´◓Д◔`)" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.png" title="自製小窩(●▼●;)" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>9X9乘法表</h2>
+						
+					</header>
+					<div class="box">
+					<?php 
+echo "<table cellpadding='0' cellspacing='0' border='1' bordercolor='black'>";
+$i=1;
+while($i<=9)
+{
+$j=1;
+echo "<tr border='0'>";
+while($j<=9)
+{
+echo "<td border='0'> ".$j."x".$i."=".$j*$i." </td>";
+$j++;
+}
+echo "</tr>";
+$i++;
+}
+echo "<table>";
+?>
+
+						
+			
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="https://twitter.com/ChenCyans" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/cyansweetness" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/cyans_chen/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
